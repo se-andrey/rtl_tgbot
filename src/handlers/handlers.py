@@ -2,8 +2,7 @@ import json
 
 from aiogram import Router
 from aiogram.types import Message
-from aiogram.filters import Command, CommandStart
-from src.config.config import Config
+from aiogram.filters import Command
 from src.services.services import validate_request
 from src.database.mongodb import aggregate_salary_data
 

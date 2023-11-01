@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher
 from src.config.config import load_config, Config
 from src.handlers import handlers
 
-# rtl_testtask_bot
+
 logger = logging.getLogger(__name__)
 
 config: Config = load_config()
