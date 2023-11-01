@@ -31,7 +31,7 @@ async def process_request(message: Message):
                 request_data["dt_upto"],
                 request_data["group_type"]
             )
-            await message.answer(str(response))
+            await message.answer(json.dumps(response))
         else:
             await message.answer(text=f'Невалидный запос. Пример запроса:\n '
                                       f'{str(check)}')

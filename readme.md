@@ -35,8 +35,8 @@
 
 ### пример 
 
-![1 request](./images/1.jpg)
+![1 request](./images/1_test.jpg)
 
-![2 request](./images/2.jpg)
+![2 request](./images/2_test.jpg)
 
-![3 request](./images/3.jpg)
+![3 request](./images/3_test.jpg)
